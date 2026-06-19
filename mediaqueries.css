@@ -82,6 +82,10 @@
     padding: 20px;
   }
 
+  body{
+    overflow: hidden;
+  }
+
   .weather-detail-container{
     width: 100%;
     padding: 12px;
