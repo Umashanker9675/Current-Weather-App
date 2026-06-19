@@ -1,0 +1,166 @@
+@media  screen and (max-width: 1080px) {
+
+  .container{
+    padding: 25px;
+  }
+  .weather-detail-container{
+    width: 80%;
+  }
+
+  .weather-cards{
+    padding: 10px 15px;
+    width: 70%;
+  }
+
+  .search-nav{
+    width: 80%;
+  } 
+}
+
+@media screen and (max-width: 780px){
+  .container{
+    padding: 20px;
+  }
+
+  .weather-detail-container{
+    width:  80%;
+    height: 60vh;
+  }
+
+  .weather-cards{
+    width: 75%;
+    height: 100px;
+  }
+  
+   .city-name{
+    margin-bottom: 20px
+  }
+  
+  .city-name p{
+    font-size: 1.5rem;
+  }
+
+  .date-time{
+    font-size: 0.70rem;
+  }
+
+  .condition{
+    font-size: 0.85rem;
+  }
+
+  #tempe{
+    font-size: 2rem;
+    padding-bottom: 25px; 
+  }
+
+  .Feels{
+    font-size: 0.85rem;
+  }
+
+  .search-nav{
+    width: 90%;
+  }
+
+  .search-bar{
+    gap: 15px;
+  }
+
+  .search-area{
+    font-size: 0.85rem;
+    padding: 7px 5px;
+  }
+
+  .search-btn{
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 482px){
+  .container{
+    padding: 20px;
+  }
+
+  .weather-detail-container{
+    width: 100%;
+    padding: 12px;
+    border-radius: 0.90rem;
+  }
+
+  .weather-cards{
+    width: 90%;
+    height: 90px;
+    border-radius: 10px;
+  }
+
+   .city-name{
+    margin-bottom: 15px
+  }
+  
+  .city-name p{
+    font-size: 1.1rem;
+  }
+
+  .date-time{
+    font-size: 0.70rem;
+  }
+
+  .condition{
+    font-size: 0.70rem;
+  }
+
+  #tempe{
+    font-size: 1.8rem;
+    padding-bottom: 20px; 
+  }
+
+  .Feels{
+    font-size: 0.70rem;
+  }
+
+  .search-nav{
+    width: 100%;
+  }
+
+  .search-bar{
+    gap: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 380px){
+  .container{
+    padding: 0px;
+  }
+
+  .weather-detail-container{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 0px;
+  }
+
+  .weather-cards{
+    width: 100%;
+    height: 85px;
+    border-radius: 10px;
+  }
+
+  .search-bar{
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .search-area{
+    width: 90%;
+  }
+
+  .search-btn{
+    width: 60%;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+  }
+
+
+}
